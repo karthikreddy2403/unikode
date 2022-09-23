@@ -1,0 +1,28 @@
+#arithmetic operators
+
+n=int(input())
+m=int(input())
+def fun ():
+	print(n+m)
+	print(n-m)
+	print(n*m)
+	print(n/m)
+	print(n//m)
+	print(n%m)
+fun()
+
+
+#square root
+
+n=int(input())
+def fun():
+	print(n*n)
+fun()
+
+#cube root
+
+n=int(input())
+def fun():
+	print(n*n*n)
+fun()
+
