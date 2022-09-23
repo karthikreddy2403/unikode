@@ -1,0 +1,34 @@
+integer input
+
+a= int(input("enter a number:"))
+print(a)
+
+printing string in new line
+
+print("Hello World\nHello world")
+
+float input
+
+a=float(input("enter a number:"))
+print(a)
+
+character input 
+
+a=input()
+print(a)
+
+
+string input
+
+a=input()
+print(a)
+
+ascii value for character
+
+a=input()
+print(ord(a))
+
+character for ascii value
+
+a=int(input())
+print(chr(a))
