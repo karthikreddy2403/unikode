@@ -1,0 +1,100 @@
+sum and difference
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+product and division
+
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+print(a/b)
+
+swapping of two numbers with using 3rd varible
+
+a=int(input())
+b=int(input())
+c=b
+b=a
+print(c)
+print(b)
+
+swapping of two numbers without using 3rd varible
+
+a=int(input())
+b=int(input())
+a,b = b,a
+print(a)
+print(b)
+
+average calculation
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+average=(a+b+c+d+e)/5
+print(average)
+
+sum of digits
+
+a=int(input())
+sum=0
+while(a>0):
+    sum=sum+a%10
+    a//=10
+print(sum)
+
+area calculation with 2 decimal points
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=float(input())
+print(a*a)
+print(b*c)
+print("%.2f"%(3.14*d*d))
+
+area of rectangle
+
+l=int(input())
+b=int(input())
+print("Required length is",(2*l+2*b),"m")
+print("Required quantity of carpet is",(l*b),"sqm")
+
+power of number
+
+a=int(input())
+b=int(input())
+print(pow(a,b))
+
+
+simple intrest
+
+p=int(input())
+t=int(input())
+r=float(input())
+print((p*t*r)/100)
+
+splliting of two numbers
+
+a= int(input())
+b = int(input())
+c = a//b
+d = a%b
+print("The number of students in each team is",c,end=' ')
+print("and left out is ",d)
+
+
+mid point between two points
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+print("Binoy's house is located at",((a+c)/2,(b+d)/2))
