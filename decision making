@@ -20,4 +20,14 @@ elif(s in "bcdfghjklmnpqrstvwxyz"):
 else :
     print(" not an alphabet")
     
+
+
+
+
+1
+2
+2
+3
+4
+
     
